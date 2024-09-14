@@ -1,0 +1,42 @@
+{
+    "prefix": "[{lime}Swiftly{default}]",
+    "advertisements": [
+        {
+            "messages": [
+                "This is a chat message for advertisements",
+                "For more messages add more lines to the configuration file.",
+                "Online players: {green}{players}{default}/{green}{maxplayers}{default}",
+                "Map: {green}{map}{default}"
+            ],
+            "time_between": 5000,
+            "mode": "chat"
+        },
+        {
+            "messages": [
+                "This is a chat message for advertisements #2",
+                "For more messages add more lines to the configuration file.",
+                "Online players: {green}{players}{default}/{green}{maxplayers}{default}",
+                "Map: {green}{map}{default}"
+            ],
+            "time_between": 2000,
+            "mode": "chat"
+        },
+        {
+            "messages": [
+                "This is a chat message for advertisements #3",
+                "For more messages add more lines to the configuration file.",
+                "Online players: {green}{players}{default}/{green}{maxplayers}{default}",
+                "Map: {green}{map}{default}"
+            ],
+            "time_between": 3000,
+            "mode": "chat"
+        },
+        {
+            "messages": [
+                "This is a <font color='#00b869'>center message</font> which is supporting only one message."
+            ],
+            "time_between": 10000,
+            "mode": "center"
+        }
+    ]
+}
