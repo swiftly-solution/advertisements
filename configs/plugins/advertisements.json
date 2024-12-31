@@ -14,29 +14,84 @@
         {
             "messages": [
                 "This is a chat message for advertisements #2",
-                "For more messages add more lines to the configuration file.",
-                "Online players: {green}{players}{default}/{green}{maxplayers}{default}",
-                "Map: {green}{map}{default}"
+                "This message is only visible to players with the 'z' flag"
             ],
-            "time_between": 2000,
-            "mode": "chat"
+            "time_between": 10000,
+            "mode": "chat",
+            "flags": "z"
         },
         {
             "messages": [
                 "This is a chat message for advertisements #3",
-                "For more messages add more lines to the configuration file.",
-                "Online players: {green}{players}{default}/{green}{maxplayers}{default}",
-                "Map: {green}{map}{default}"
+                "This message is only visible on the map de_dust2"
             ],
-            "time_between": 3000,
-            "mode": "chat"
+            "time_between": 15000,
+            "mode": "chat",
+            "map": "de_dust2"
         },
         {
             "messages": [
-                "This is a <font color='#00b869'>center message</font> which is supporting only one message."
+                "This is a chat message for advertisements #4",
+                "This message is only visible during warmup"
             ],
-            "time_between": 10000,
+            "time_between": 20000,
+            "mode": "chat",
+            "warmup": true
+        },
+        {
+            "messages": [
+                "This is a chat message for advertisements #5",
+                "This message is only visible to players in the 'admingroupname' admin group"
+            ],
+            "time_between": 25000,
+            "mode": "chat",
+            "admin_group": "admingroupname"
+        },
+        {
+            "messages": [
+                "This is a chat message for advertisements #6",
+                "This message is only visible to VIP players"
+            ],
+            "time_between": 30000,
+            "mode": "chat",
+            "vips": true
+        },
+        {
+            "messages": [
+                "<font color='#00FF00'>This is a center message for advertisements #1</font>"
+            ],
+            "time_between": 35000,
             "mode": "center"
+        },
+        {
+            "messages": [
+                "This is a console message for advertisements #1"
+            ],
+            "time_between": 40000,
+            "mode": "console"
+        },
+        {
+            "messages": [
+                "This is a notify message for advertisements #1"
+            ],
+            "time_between": 45000,
+            "mode": "notify"
+        },
+        {
+            "messages": [
+                "This is a chat message for advertisements #7",
+                "This message is only visible to players with the 'z' flag and on the map de_dust2",
+                "This message is only visible during warmup",
+                "This message is only visible to players in the 'admingroupname' admin group",
+                "This message is only visible to VIP players"
+            ],
+            "time_between": 50000,
+            "mode": "chat",
+            "flags": "z",
+            "map": "de_dust2",
+            "warmup": true,
+            "admin_group": "admingroupname",
+            "vips": true
         }
     ]
 }
