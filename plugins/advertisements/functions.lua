@@ -84,7 +84,7 @@ function ProcessMessages(category)
 
             elseif currentMessage.warmup then
                 local gamerules = GetCCSGameRules()
-                local warmupround = gamerules().WarmupPeriod
+                local warmupround = gamerules.WarmupPeriod
                 if warmupround then
                     playermanager:SendMsg(modes[category], (modes[category] == MessageType.Chat and (config:Fetch("advertisements.prefix") .. " ") or ("")) .. formattedMessage)
                 end
