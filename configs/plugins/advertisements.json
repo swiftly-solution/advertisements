@@ -41,11 +41,11 @@
         {
             "messages": [
                 "This is a chat message for advertisements #5",
-                "This message is only visible to players in the 'admingroupname' admin group"
+                "This message is only visible to players in the 'Admin Group ID' admin group"
             ],
             "time_between": 25000,
             "mode": "chat",
-            "admin_group": "admingroupname"
+            "admin_group": "admingroupid"
         },
         {
             "messages": [
@@ -82,7 +82,7 @@
                 "This is a chat message for advertisements #7",
                 "This message is only visible to players with the 'z' flag and on the map de_dust2",
                 "This message is only visible during warmup",
-                "This message is only visible to players in the 'admingroupname' admin group",
+                "This message is only visible to players in the 'Admin Group ID' admin group",
                 "This message is only visible to VIP players"
             ],
             "time_between": 50000,
@@ -90,7 +90,7 @@
             "flags": "z",
             "map": "de_dust2",
             "warmup": true,
-            "admin_group": "admingroupname",
+            "admin_group": "admingroupid",
             "vips": true
         }
     ]
